@@ -11,4 +11,4 @@ for line in fh:
     webbrowser.open(url+'+'+line)
     time.sleep(2)
 
-fu.close()
+fh.close()
